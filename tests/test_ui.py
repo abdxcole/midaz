@@ -59,8 +59,12 @@ class TestClasificarYFuentes(unittest.TestCase):
 
     def test_la_pagina_no_trae_answer_json(self):
         html = pagina({"ejemplos": [], "motor": "Local, sin Zetaris", "muestra": True, "memoria": []})
-        self.assertIn("Datos de ejemplo", html)
-        self.assertIn("Memoria H-MEM", html)
+        self.assertIn("Sample data", html)
+        self.assertIn("Memory", html)
+        self.assertIn("Show proof", html)
+        self.assertIn("Which products make me money?", html)
+        self.assertNotIn("Datos de ejemplo", html)
+        self.assertNotIn("Memoria H-MEM", html)
         self.assertNotIn("answer.json", html)
         self.assertNotIn("ZETARIS_API_KEY", html)
 
@@ -194,7 +198,10 @@ class TestEndpoint(unittest.TestCase):
         self.assertIn("¿Me alcanza este mes?", html)
         self.assertIn("¿Cómo me fue con lo de la Coca?", html)
         self.assertIn("¿Cuánto deja la carne molida?", html)
-        self.assertIn("Datos de ejemplo", html)
+        self.assertIn("Sample data", html)
+        self.assertIn("Show proof", html)
+        self.assertIn("Which products make me money?", html)
+        self.assertNotIn("Datos de ejemplo", html)
         self.assertNotIn("answer.json", html)
 
     def test_post_devuelve_la_prueba(self):
