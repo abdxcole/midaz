@@ -1,0 +1,67 @@
+{
+  "id": "R-8020",
+  "claim": "De 197 productos con costo, el 20 % que más deja (39 productos) hace el 67.8 % de su ganancia bruta (₡12.089.826 en 90 días, sin IVA).",
+  "sql": "-- HU-02 resumen: cuantos productos, ganancia total, cuanto hace el top 20 %, y cuantos llegan al 80 %.\nWITH base AS (\n    SELECT product_id, ganancia_bruta\n    FROM margen_por_producto\n    WHERE sin_costo = 0 AND unidades > 0\n),\nr AS (\n    SELECT product_id, ganancia_bruta,\n           ROW_NUMBER() OVER (ORDER BY ganancia_bruta DESC, product_id) AS rk,\n           SUM(ganancia_bruta) OVER (ORDER BY ganancia_bruta DESC, product_id\n               ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS acum,\n           SUM(ganancia_bruta) OVER () AS total,\n           COUNT(*) OVER () AS n\n    FROM base\n)\nSELECT MAX(n)                                              AS n_productos,\n       MAX(total)                                          AS ganancia_total,\n       CAST(MAX(n) * 0.2 AS INTEGER)                       AS n_top20,\n       100.0 * SUM(CASE WHEN rk <= CAST(n * 0.2 AS INTEGER) THEN ganancia_bruta ELSE 0 END) / MAX(total) AS pct_top20,\n       MIN(CASE WHEN acum >= 0.8 * total THEN rk END)       AS n_para_80,\n       100.0 * MIN(CASE WHEN acum >= 0.8 * total THEN rk END) / MAX(n) AS pct_catalogo_para_80\nFROM r",
+  "sql_file": "sql/11_hu02_8020_resumen.sql",
+  "view": {
+    "name": "margen_por_producto",
+    "definition_file": "sql/00_margen_por_producto.sql",
+    "definition_sql": "-- Vista semantica margen_por_producto (HU-04). SAMPLE DATA.\n-- Fuentes (3, separadas): pos.ventas_pos, inventario.costos_inventario, finanzas.gastos_operativos.\n-- Precios POS traen IVA 13 % incluido; aqui se excluye: precio_sin_iva = unit_price_with_iva / 1.13.\n-- Ganancia bruta = qty x (precio_sin_iva - unit_cost). Margen = ganancia_bruta / ventas_sin_iva.\n-- LEFT JOIN a costos: un producto con ventas y sin fila de costo queda con sin_costo = 1 y\n-- ganancia_bruta NULL (nunca 0): el agente debe decir \"no se\", no inventar.\n-- Dialecto: ANSI SQL (CTE, CASE, LEFT JOIN, SUM). Supuestos para Zetaris/Spark SQL en sql/README.md.\nCREATE VIEW margen_por_producto AS\nSELECT\n    v.product_id,\n    c.name,\n    c.category,\n    SUM(v.qty)                                              AS unidades,\n    SUM(v.qty * v.unit_price_with_iva / 1.13)               AS ventas_sin_iva,\n    SUM(v.qty * c.unit_cost)                                AS costo_total,\n    SUM(v.qty * (v.unit_price_with_iva / 1.13 - c.unit_cost)) AS ganancia_bruta,\n    CASE WHEN MAX(c.product_id) IS NULL THEN 1 ELSE 0 END   AS sin_costo,\n    SUM(CASE WHEN c.unit_cost IS NOT NULL\n              AND v.unit_price_with_iva / 1.13 < c.unit_cost THEN 1 ELSE 0 END) AS lineas_precio_bajo_costo,\n    SUM(CASE WHEN v.qty < 0 OR v.unit_price_with_iva < 0 THEN 1 ELSE 0 END)     AS lineas_negativas\nFROM pos.ventas_pos v\nLEFT JOIN inventario.costos_inventario c\n       ON c.product_id = v.product_id\nGROUP BY v.product_id, c.name, c.category",
+    "business_terms": {
+      "precio_sin_iva": "unit_price_with_iva / 1.13",
+      "ganancia_bruta": "qty * (unit_price_with_iva / 1.13 - unit_cost)",
+      "margen": "ganancia_bruta / ventas_sin_iva, con ventas_sin_iva = qty * unit_price_with_iva / 1.13",
+      "costo_operativo": "SUM(gastos_operativos.amount) del mes",
+      "producto_estrella": "rank_ganancia <= FLOOR(0.2 * N), N = productos con costo y ventas",
+      "sin_costo": "producto con ventas y sin fila en costos_inventario; no entra al 80/20"
+    }
+  },
+  "sources": [
+    {
+      "schema": "pos",
+      "table": "ventas_pos",
+      "file": "data/output/ventas_pos.csv",
+      "columns": [
+        "product_id",
+        "qty",
+        "unit_price_with_iva"
+      ]
+    },
+    {
+      "schema": "inventario",
+      "table": "costos_inventario",
+      "file": "data/output/costos_inventario.csv",
+      "columns": [
+        "product_id",
+        "name",
+        "category",
+        "unit_cost"
+      ]
+    },
+    {
+      "schema": "finanzas",
+      "table": "gastos_operativos",
+      "file": "data/output/gastos_operativos.csv",
+      "columns": []
+    }
+  ],
+  "row_count": 1,
+  "executed_at": "2026-10-21T20:30:00-06:00",
+  "execution_ms": 71.95,
+  "engine": "sqlite-local-standin",
+  "data_quality_warnings": [
+    {
+      "code": "sin_costo",
+      "products": 3,
+      "count": 2262,
+      "detail": "productos con ventas y sin costo: excluidos del calculo"
+    }
+  ],
+  "verifier": {
+    "verdict": "pendiente",
+    "by": null,
+    "checked_at": null,
+    "notes": null
+  },
+  "sample_data": true
+}

@@ -1,0 +1,198 @@
+rank_ganancia,rank_volumen,product_id,name,category,qty,ventas_sin_iva,ganancia_bruta_sin_iva,pct_ganancia,pct_acumulado
+1,6,P004,Helado Dos Pinos vainilla 1 L,Helados,832,2172035.40,912254.28,7.55,7.55
+2,5,P003,Coca-Cola 2.5 L,Bebidas,1309,2020752.21,797478.62,6.60,14.14
+3,8,P066,Helado Dos Pinos fresa 1 L,Helados,471,1229601.77,545780.42,4.51,18.66
+4,12,P041,Queso Turrialba (kg),Lacteos,461,1958230.09,396136.20,3.28,21.93
+5,3,P005,Paleta Dos Pinos Choco,Helados,1424,819115.04,368604.16,3.05,24.98
+6,55,P057,Guaro Cacique 750 ml,Cervezas y licores,267,1535840.71,330333.04,2.73,27.71
+7,4,P006,Coca-Cola lata 355 ml,Bebidas,1350,776548.67,295084.67,2.44,30.15
+8,1,P001,Arroz Tio Pelon 99% 2 kg,Granos,13816,28732389.38,287317.78,2.38,32.53
+9,34,P090,Desodorante Rexona,Cuidado personal,388,806902.65,248815.09,2.06,34.59
+10,25,P081,Jabon Irex 1 kg,Limpieza,414,879292.04,245751.98,2.03,36.62
+11,33,P034,Leche en polvo Dos Pinos 400 g,Abarrotes,388,1236106.19,228613.75,1.89,38.51
+12,16,P058,Papas Tosty 150 g,Snacks y dulces,443,568451.33,203357.31,1.68,40.20
+13,2,P002,Frijoles negros Don Pedro 900 g,Granos,9154,11746283.19,176176.43,1.46,41.65
+14,21,P042,Yogurt Dos Pinos 1 L,Lacteos,433,708893.81,164734.05,1.36,43.01
+15,35,P059,Doritos 145 g,Snacks y dulces,363,513982.30,164282.62,1.36,44.37
+16,29,P052,Pepsi 3 L,Bebidas,405,591371.68,162108.13,1.34,45.71
+17,28,P045,Fanta naranja 2.5 L,Bebidas,409,561017.70,157240.63,1.30,47.02
+18,14,P085,Suavitel 850 ml,Limpieza,458,689026.55,154833.67,1.28,48.30
+19,26,P033,Mayonesa Hellmanns 400 g,Abarrotes,412,838584.07,154029.59,1.27,49.57
+20,15,P091,Toallas Kotex 10 u,Cuidado personal,444,589380.53,144923.21,1.20,50.77
+21,24,P069,Pan cuadrado Bimbo,Panaderia,416,681061.95,135294.91,1.12,51.89
+22,65,P148,Helado Dos Pinos fresa 1 L (presentacion pequena),Helados,204,320442.48,135239.04,1.12,53.01
+23,49,P049,Del Valle 1 L,Bebidas,302,374159.29,130780.51,1.08,54.09
+24,95,P139,Guaro Cacique 750 ml (presentacion pequena),Cervezas y licores,157,541858.41,129979.90,1.08,55.16
+25,23,P083,Lavaplatos Axion 450 g,Limpieza,428,492389.38,126838.86,1.05,56.21
+26,36,P084,Papel higienico Nevax 4 u,Limpieza,361,527123.89,119013.39,0.98,57.20
+27,39,P076,Tomate (kg),Frutas y verduras,353,468584.07,118026.83,0.98,58.17
+28,30,P089,Pasta Colgate 75 ml,Cuidado personal,398,440265.49,114709.45,0.95,59.12
+29,46,P068,Cono Dos Pinos,Helados,323,257256.64,112100.44,0.93,60.05
+30,17,P074,Papa (kg),Frutas y verduras,437,425398.23,111942.50,0.93,60.98
+31,20,P044,Queso crema Dos Pinos 225 g,Lacteos,433,574778.76,102172.25,0.85,61.82
+32,44,P067,Copa Dos Pinos,Helados,342,226991.15,98946.35,0.82,62.64
+33,19,P056,Cerveza Bavaria lata 350 ml,Cervezas y licores,434,403274.34,97681.92,0.81,63.45
+34,146,P088,Shampoo Head&Shoulders 375 ml,Cuidado personal,88,303716.81,92030.17,0.76,64.21
+35,22,P031,Margarina Numar 500 g,Abarrotes,433,574778.76,91273.64,0.75,64.96
+36,13,P071,Bizcocho (bolsa),Panaderia,459,487433.63,88562.63,0.73,65.70
+37,85,P170,Shampoo Head&Shoulders 375 ml (presentacion pequena),Cuidado personal,166,345221.24,87346.88,0.72,66.42
+38,27,P028,Harina Maseca 1 kg,Abarrotes,409,488628.32,84070.06,0.70,67.11
+39,74,P021,Cafe Rey 250 g,Abarrotes,185,401106.19,80878.59,0.67,67.78
+40,11,P047,Agua Cristal 600 ml,Bebidas,462,265752.21,80684.25,0.67,68.45
+41,81,P046,Fresca 2.5 L,Bebidas,172,235929.20,80073.12,0.66,69.11
+42,105,P022,Cafe 1820 500 g,Abarrotes,144,535221.24,79907.64,0.66,69.77
+43,51,P060,Chicharron Jack's,Snacks y dulces,282,187168.14,72755.10,0.60,70.37
+44,43,P087,Jabon Protex,Cuidado personal,344,228318.58,72455.62,0.60,70.97
+45,56,P050,Gatorade 600 ml,Bebidas,266,247168.14,72342.30,0.60,71.57
+46,53,P054,Cerveza Imperial lata 350 ml,Cervezas y licores,279,234557.52,69771.75,0.58,72.15
+47,31,P061,Chocolate Tapita,Snacks y dulces,391,173008.85,68361.61,0.57,72.71
+48,48,P027,Salsa de tomate Kerns 400 g,Abarrotes,310,342920.35,67972.05,0.56,73.28
+49,40,P048,Tropical 500 ml,Bebidas,351,232964.60,67629.56,0.56,73.84
+50,47,P030,Mantequilla Dos Pinos 115 g,Abarrotes,314,305663.72,66932.66,0.55,74.39
+51,115,P190,Salsa Lizano 280 ml (presentacion grande),Abarrotes,128,280353.98,61010.62,0.50,74.89
+52,176,P198,Leche en polvo Dos Pinos 400 g (presentacion grande),Abarrotes,52,281858.41,59241.21,0.49,75.38
+53,42,P070,Pan baguette,Panaderia,344,213097.35,57437.35,0.48,75.86
+54,32,P012,Frijoles rojos Don Pedro 900 g,Granos,389,516371.68,54764.83,0.45,76.31
+55,91,P018,Azucar Doña Maria 2 kg,Abarrotes,162,272389.38,53151.54,0.44,76.75
+56,50,P080,Yuca (kg),Frutas y verduras,294,208141.59,51839.43,0.43,77.18
+57,10,P037,Tortillas Tortirica 10 u,Abarrotes,465,349778.76,49839.81,0.41,77.59
+58,18,P032,Consome Maggi 12 u,Abarrotes,435,346460.18,47980.58,0.40,77.99
+59,159,P185,Cafe Rey 250 g (presentacion grande),Abarrotes,69,254933.63,47899.13,0.40,78.39
+60,41,P024,Atun Sardimar 140 g,Abarrotes,349,355176.99,47536.98,0.39,78.78
+61,45,P010,Arroz Luisiana 80% 1 kg,Granos,339,345000.00,46920.69,0.39,79.17
+62,60,P063,Mani Kiss,Snacks y dulces,247,131150.44,45641.51,0.38,79.55
+63,69,P173,Toallas Kotex 10 u (presentacion pequena),Cuidado personal,193,153716.81,45339.59,0.38,79.92
+64,7,P077,Chile dulce (u),Frutas y verduras,530,140707.96,44989.96,0.37,80.29
+65,145,P183,Aceite Clover 1 L (presentacion grande),Abarrotes,88,278407.08,43396.04,0.36,80.65
+66,79,P116,Leche en polvo Dos Pinos 400 g (presentacion pequena),Abarrotes,176,334867.26,41686.46,0.34,81.00
+67,72,P082,Cloro Ole 1 L,Limpieza,192,152920.35,40888.35,0.34,81.33
+68,68,P086,Bolsas basura 10 u,Limpieza,195,155309.73,40521.03,0.34,81.67
+69,71,P151,Pan cuadrado Bimbo (presentacion pequena),Panaderia,192,186902.65,40107.13,0.33,82.00
+70,124,P172,Desodorante Rexona (presentacion pequena),Cuidado personal,117,144955.75,40024.30,0.33,82.33
+71,90,P125,Huevos 15 u (presentacion pequena),Lacteos,162,229380.53,39442.01,0.33,82.66
+72,192,P186,Cafe 1820 500 g (presentacion grande),Abarrotes,28,177168.14,38556.38,0.32,82.98
+73,99,P167,Suavitel 850 ml (presentacion pequena),Limpieza,153,138783.19,37771.06,0.31,83.29
+74,57,P038,Leche Dos Pinos 1 L,Lacteos,264,245309.73,37520.61,0.31,83.60
+75,137,P104,Cafe 1820 500 g (presentacion pequena),Abarrotes,97,216747.79,37389.94,0.31,83.91
+76,76,P101,Aceite Clover 1 L (presentacion pequena),Abarrotes,180,199115.04,37325.64,0.31,84.22
+77,135,P182,Azucar Doña Maria 2 kg (presentacion grande),Abarrotes,99,282544.25,36726.26,0.30,84.52
+78,75,P124,Yogurt Dos Pinos 1 L (presentacion pequena),Lacteos,182,177168.14,36529.46,0.30,84.82
+79,123,P019,Aceite Clover 1 L,Abarrotes,117,217433.63,36192.44,0.30,85.12
+80,62,P053,Malta Pilsen 355 ml,Bebidas,231,122654.87,34246.55,0.28,85.41
+81,37,P023,Pasta Roma spaghetti 250 g,Abarrotes,356,173274.34,33085.10,0.27,85.68
+82,111,P011,Arroz Sabanero 2 kg,Granos,131,255044.25,33062.13,0.27,85.95
+83,96,P150,Cono Dos Pinos (presentacion pequena),Helados,156,75929.20,32603.32,0.27,86.22
+84,166,P123,Queso Turrialba (kg) (presentacion pequena),Lacteos,59,150110.62,32466.39,0.27,86.49
+85,64,P029,Harina Gallo de Oro 1 kg,Abarrotes,208,174867.26,31509.50,0.26,86.75
+86,101,P039,Leche deslactosada 1 L,Lacteos,149,158230.09,31501.12,0.26,87.01
+87,54,P062,Chicles Trident,Snacks y dulces,275,85176.99,31034.99,0.26,87.27
+88,118,P140,Papas Tosty 150 g (presentacion pequena),Snacks y dulces,126,97566.37,30613.75,0.25,87.52
+89,148,P075,Cebolla (kg),Frutas y verduras,83,95486.73,30258.69,0.25,87.77
+90,52,P017,Avena Quaker 400 g,Granos,281,323274.34,30239.11,0.25,88.02
+91,98,P051,Te frio Lipton 500 ml,Bebidas,154,109026.55,29080.53,0.24,88.26
+92,121,P191,Salsa de tomate Kerns 400 g (presentacion grande),Abarrotes,124,233185.84,28939.24,0.24,88.50
+93,61,P035,Galletas Maria Pozuelo,Abarrotes,237,136327.43,28810.01,0.24,88.74
+94,165,P043,Huevos 15 u,Lacteos,62,145398.23,27893.97,0.23,88.97
+95,107,P055,Cerveza Pilsen lata 350 ml,Cervezas y licores,138,116017.70,27757.04,0.23,89.20
+96,77,P126,Queso crema Dos Pinos 225 g (presentacion pequena),Lacteos,179,142566.37,26694.30,0.22,89.42
+97,153,P163,Jabon Irex 1 kg (presentacion pequena),Limpieza,78,100088.50,26557.12,0.22,89.64
+98,84,P108,Salsa Lizano 280 ml (presentacion pequena),Abarrotes,168,130088.50,26271.22,0.22,89.86
+99,117,P176,Frijoles rojos Don Pedro 900 g (presentacion grande),Granos,127,286592.92,26086.71,0.22,90.08
+100,83,P149,Copa Dos Pinos (presentacion pequena),Helados,168,66902.65,25754.41,0.21,90.29
+101,82,P065,Gomitas Trululu,Snacks y dulces,170,82743.36,25460.16,0.21,90.50
+102,180,P197,Mayonesa Hellmanns 400 g (presentacion grande),Abarrotes,48,165663.72,24691.08,0.20,90.70
+103,127,P026,Salsa Lizano 280 ml,Abarrotes,111,142433.63,24629.33,0.20,90.91
+104,70,P164,Cloro Ole 1 L (presentacion pequena),Limpieza,192,93451.33,24509.89,0.20,91.11
+105,94,P153,Bizcocho (bolsa) (presentacion pequena),Panaderia,159,102013.27,23984.02,0.20,91.31
+106,103,P040,Natilla Dos Pinos 230 g,Lacteos,147,123584.07,23140.44,0.19,91.50
+107,9,P036,Galletas Chiky,Abarrotes,467,185973.45,23065.17,0.19,91.69
+108,129,P166,Papel higienico Nevax 4 u (presentacion pequena),Limpieza,111,98230.09,23000.95,0.19,91.88
+109,38,P020,Sal Sol 1 kg,Abarrotes,356,141769.91,22773.35,0.19,92.07
+110,142,P115,Mayonesa Hellmanns 400 g (presentacion pequena),Abarrotes,91,110730.09,22750.38,0.19,92.26
+111,63,P162,Yuca (kg) (presentacion pequena),Frutas y verduras,221,92898.23,22587.08,0.19,92.44
+112,66,P130,Tropical 500 ml (presentacion pequena),Bebidas,198,78849.56,22239.38,0.18,92.63
+113,100,P137,Cerveza Pilsen lata 350 ml (presentacion pequena),Cervezas y licores,153,77853.98,22041.11,0.18,92.81
+114,131,P013,Frijoles negros Kamuk 1 kg,Granos,107,151504.42,21057.51,0.17,92.98
+115,136,P127,Fanta naranja 2.5 L (presentacion pequena),Bebidas,98,80221.24,21043.94,0.17,93.16
+116,130,P171,Pasta Colgate 75 ml (presentacion pequena),Cuidado personal,107,71017.70,19727.25,0.16,93.32
+117,150,P128,Fresca 2.5 L (presentacion pequena),Bebidas,82,67123.89,19155.53,0.16,93.48
+118,67,P160,Banano (kg) (presentacion pequena),Frutas y verduras,196,78053.10,18751.34,0.16,93.64
+119,78,P014,Lentejas 400 g,Granos,177,133141.59,18427.89,0.15,93.79
+120,110,P093,Arroz Sabanero 2 kg (presentacion pequena),Granos,132,154778.76,18314.52,0.15,93.94
+121,171,P141,Doritos 145 g (presentacion pequena),Snacks y dulces,56,47079.65,18167.97,0.15,94.09
+122,73,P120,Leche Dos Pinos 1 L (presentacion pequena),Lacteos,190,105088.50,17863.30,0.15,94.24
+123,88,P147,Gomitas Trululu (presentacion pequena),Snacks y dulces,164,47168.14,17654.70,0.15,94.38
+124,172,P194,Mantequilla Dos Pinos 115 g (presentacion grande),Abarrotes,55,91261.06,17572.06,0.15,94.53
+125,147,P100,Azucar Doña Maria 2 kg (presentacion pequena),Abarrotes,87,88539.82,17528.68,0.14,94.67
+126,126,P157,Cebolla (kg) (presentacion pequena),Frutas y verduras,112,76814.16,17510.16,0.14,94.82
+127,58,P073,Platano maduro (u),Frutas y verduras,262,57964.60,17137.14,0.14,94.96
+128,167,P175,Arroz Sabanero 2 kg (presentacion grande),Granos,59,195796.46,16979.26,0.14,95.10
+129,138,P165,Lavaplatos Axion 450 g (presentacion pequena),Limpieza,94,64469.03,16513.05,0.14,95.24
+130,104,P133,Te frio Lipton 500 ml (presentacion pequena),Bebidas,146,61371.68,16286.88,0.13,95.37
+131,134,P103,Cafe Rey 250 g (presentacion pequena),Abarrotes,103,134446.90,16201.87,0.13,95.51
+132,102,P095,Frijoles negros Kamuk 1 kg (presentacion pequena),Granos,148,124424.78,15629.98,0.13,95.64
+133,183,P192,Harina Maseca 1 kg (presentacion grande),Abarrotes,45,91592.92,15189.22,0.13,95.76
+134,155,P177,Frijoles negros Kamuk 1 kg (presentacion grande),Granos,72,173628.32,14575.28,0.12,95.88
+135,93,P099,Avena Quaker 400 g (presentacion pequena),Granos,161,110420.35,14490.11,0.12,96.00
+136,133,P078,Banano (kg),Frutas y verduras,104,69026.55,14012.63,0.12,96.12
+137,187,P195,Margarina Numar 500 g (presentacion grande),Abarrotes,37,83495.58,13962.22,0.12,96.23
+138,116,P168,Bolsas basura 10 u (presentacion pequena),Limpieza,127,61814.16,13820.86,0.11,96.35
+139,106,P129,Agua Cristal 600 ml (presentacion pequena),Bebidas,143,50619.47,13808.41,0.11,96.46
+140,152,P132,Gatorade 600 ml (presentacion pequena),Bebidas,79,43694.69,13487.46,0.11,96.57
+141,161,P189,Sardinas Sardimar 155 g (presentacion grande),Abarrotes,67,85973.45,13085.49,0.11,96.68
+142,160,P193,Harina Gallo de Oro 1 kg (presentacion grande),Abarrotes,69,99225.66,12664.47,0.10,96.79
+143,168,P158,Tomate (kg) (presentacion pequena),Frutas y verduras,58,46194.69,12563.97,0.10,96.89
+144,173,P134,Pepsi 3 L (presentacion pequena),Bebidas,54,47787.61,12061.75,0.10,96.99
+145,143,P142,Chicharron Jack's (presentacion pequena),Snacks y dulces,89,35442.48,11969.62,0.10,97.09
+146,149,P156,Papa (kg) (presentacion pequena),Frutas y verduras,82,47168.14,11398.10,0.09,97.18
+147,122,P111,Harina Gallo de Oro 1 kg (presentacion pequena),Abarrotes,121,61570.80,11298.93,0.09,97.28
+148,119,P145,Mani Kiss (presentacion pequena),Snacks y dulces,126,39026.55,11082.27,0.09,97.37
+149,141,P180,Maiz pira 400 g (presentacion grande),Granos,92,97699.12,10970.72,0.09,97.46
+150,89,P015,Garbanzos 400 g,Granos,164,137876.11,10905.67,0.09,97.55
+151,80,P114,Consome Maggi 12 u (presentacion pequena),Abarrotes,175,85176.99,10712.74,0.09,97.64
+152,151,P025,Sardinas Sardimar 155 g,Abarrotes,79,59424.78,10705.48,0.09,97.73
+153,120,P094,Frijoles rojos Don Pedro 900 g (presentacion pequena),Granos,125,99557.52,10572.52,0.09,97.81
+154,184,P131,Del Valle 1 L (presentacion pequena),Bebidas,44,33097.35,10432.51,0.09,97.90
+155,86,P016,Maiz pira 400 g,Granos,165,102212.39,10200.14,0.08,97.98
+156,114,P092,Arroz Luisiana 80% 1 kg (presentacion pequena),Granos,128,79292.04,10161.80,0.08,98.07
+157,132,P119,Tortillas Tortirica 10 u (presentacion pequena),Abarrotes,105,46460.18,9912.83,0.08,98.15
+158,157,P110,Harina Maseca 1 kg (presentacion pequena),Abarrotes,70,49557.52,9866.82,0.08,98.23
+159,109,P079,Culantro (rollo),Frutas y verduras,134,35575.22,9865.98,0.08,98.31
+160,139,P184,Sal Sol 1 kg (presentacion grande),Abarrotes,94,64469.03,9768.55,0.08,98.39
+161,178,P196,Consome Maggi 12 u (presentacion grande),Abarrotes,51,68827.43,9703.64,0.08,98.47
+162,164,P136,Cerveza Imperial lata 350 ml (presentacion pequena),Cervezas y licores,63,32057.52,9540.69,0.08,98.55
+163,174,P187,Pasta Roma spaghetti 250 g (presentacion grande),Abarrotes,53,43384.96,9344.65,0.08,98.63
+164,113,P152,Pan baguette (presentacion pequena),Panaderia,129,48517.70,9152.06,0.08,98.71
+165,169,P200,Galletas Chiky (presentacion grande),Abarrotes,58,39778.76,7557.44,0.06,98.77
+166,87,P102,Sal Sol 1 kg (presentacion pequena),Abarrotes,164,39911.50,7470.66,0.06,98.83
+167,163,P169,Jabon Protex (presentacion pequena),Cuidado personal,64,25486.73,7435.53,0.06,98.89
+168,195,P188,Atun Sardimar 140 g (presentacion grande),Abarrotes,23,39690.27,7281.43,0.06,98.95
+169,162,P143,Chocolate Tapita (presentacion pequena),Snacks y dulces,66,17522.12,6931.10,0.06,99.01
+170,144,P122,Natilla Dos Pinos 230 g (presentacion pequena),Lacteos,88,44778.76,6877.16,0.06,99.07
+171,186,P138,Cerveza Bavaria lata 350 ml (presentacion pequena),Cervezas y licores,41,22676.99,6501.26,0.05,99.12
+172,59,P064,Bon Bon Bum,Snacks y dulces,252,22300.88,6389.60,0.05,99.17
+173,181,P199,Galletas Maria Pozuelo (presentacion grande),Abarrotes,47,45752.21,6386.42,0.05,99.23
+174,128,P072,Pan dulce (unidad),Panaderia,111,34380.53,6286.43,0.05,99.28
+175,108,P117,Galletas Maria Pozuelo (presentacion pequena),Abarrotes,134,47433.63,5715.41,0.05,99.33
+176,190,P179,Garbanzos 400 g (presentacion grande),Granos,30,43141.59,5710.89,0.05,99.37
+177,188,P178,Lentejas 400 g (presentacion grande),Granos,34,43628.32,5693.16,0.05,99.42
+178,125,P161,Culantro (rollo) (presentacion pequena),Frutas y verduras,114,17654.87,5536.67,0.05,99.47
+179,170,P121,Leche deslactosada 1 L (presentacion pequena),Lacteos,57,36570.80,5514.92,0.05,99.51
+180,193,P174,Arroz Luisiana 80% 1 kg (presentacion grande),Granos,27,46592.92,5342.86,0.04,99.56
+181,92,P154,Pan dulce (unidad) (presentacion pequena),Panaderia,162,28672.57,5339.71,0.04,99.60
+182,177,P109,Salsa de tomate Kerns 400 g (presentacion pequena),Abarrotes,51,33849.56,5031.50,0.04,99.64
+183,97,P159,Chile dulce (u) (presentacion pequena),Frutas y verduras,155,24004.42,4810.77,0.04,99.68
+184,112,P096,Lentejas 400 g (presentacion pequena),Granos,131,57964.60,4221.85,0.03,99.72
+185,175,P112,Mantequilla Dos Pinos 115 g (presentacion pequena),Abarrotes,52,29911.50,4121.58,0.03,99.75
+186,156,P105,Pasta Roma spaghetti 250 g (presentacion pequena),Abarrotes,72,20707.96,3815.32,0.03,99.78
+187,182,P135,Malta Pilsen 355 ml (presentacion pequena),Bebidas,45,13938.05,3721.25,0.03,99.81
+188,140,P155,Platano maduro (u) (presentacion pequena),Frutas y verduras,93,12345.13,3420.85,0.03,99.84
+189,189,P106,Atun Sardimar 140 g (presentacion pequena),Abarrotes,31,19203.54,3064.32,0.03,99.87
+190,154,P146,Bon Bon Bum (presentacion pequena),Snacks y dulces,77,6814.16,2472.13,0.02,99.89
+191,185,P144,Chicles Trident (presentacion pequena),Snacks y dulces,42,7433.63,2138.69,0.02,99.90
+192,196,P113,Margarina Numar 500 g (presentacion pequena),Abarrotes,20,15929.20,2125.40,0.02,99.92
+193,197,P181,Avena Quaker 400 g (presentacion grande),Granos,15,29203.54,2120.59,0.02,99.94
+194,158,P098,Maiz pira 400 g (presentacion pequena),Granos,70,26327.43,2118.63,0.02,99.96
+195,194,P107,Sardinas Sardimar 155 g (presentacion pequena),Abarrotes,26,11504.42,2015.98,0.02,99.97
+196,179,P097,Garbanzos 400 g (presentacion pequena),Granos,49,24933.63,1665.00,0.01,99.99
+197,191,P118,Galletas Chiky (presentacion pequena),Abarrotes,30,7300.88,1543.28,0.01,100.00

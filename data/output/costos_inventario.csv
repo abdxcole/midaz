@@ -1,0 +1,198 @@
+product_id,name,category,unit_cost,stock
+P001,Arroz Tio Pelon 99% 2 kg,Granos,2058.85,54
+P002,Frijoles negros Don Pedro 900 g,Granos,1263.94,114
+P003,Coca-Cola 2.5 L,Bebidas,934.51,89
+P004,Helado Dos Pinos vainilla 1 L,Helados,1514.16,119
+P005,Paleta Dos Pinos Choco,Helados,316.37,35
+P006,Coca-Cola lata 355 ml,Bebidas,356.64,64
+P010,Arroz Luisiana 80% 1 kg,Granos,879.29,64
+P011,Arroz Sabanero 2 kg,Granos,1694.52,81
+P012,Frijoles rojos Don Pedro 900 g,Granos,1186.65,75
+P013,Frijoles negros Kamuk 1 kg,Granos,1219.13,15
+P014,Lentejas 400 g,Granos,648.10,23
+P015,Garbanzos 400 g,Granos,774.21,118
+P016,Maiz pira 400 g,Granos,557.65,120
+P017,Avena Quaker 400 g,Granos,1042.83,89
+P018,Azucar Doña Maria 2 kg,Abarrotes,1353.32,5
+P019,Aceite Clover 1 L,Abarrotes,1549.07,11
+P020,Sal Sol 1 kg,Abarrotes,334.26,115
+P021,Cafe Rey 250 g,Abarrotes,1730.96,93
+P022,Cafe 1820 500 g,Abarrotes,3161.90,26
+P023,Pasta Roma spaghetti 250 g,Abarrotes,393.79,35
+P024,Atun Sardimar 140 g,Abarrotes,881.49,5
+P025,Sardinas Sardimar 155 g,Abarrotes,616.70,30
+P026,Salsa Lizano 280 ml,Abarrotes,1061.30,94
+P027,Salsa de tomate Kerns 400 g,Abarrotes,886.93,93
+P028,Harina Maseca 1 kg,Abarrotes,989.14,49
+P029,Harina Gallo de Oro 1 kg,Abarrotes,689.22,19
+P030,Mantequilla Dos Pinos 115 g,Abarrotes,760.29,47
+P031,Margarina Numar 500 g,Abarrotes,1116.64,41
+P032,Consome Maggi 12 u,Abarrotes,686.16,70
+P033,Mayonesa Hellmanns 400 g,Abarrotes,1661.54,100
+P034,Leche en polvo Dos Pinos 400 g,Abarrotes,2596.63,8
+P035,Galletas Maria Pozuelo,Abarrotes,453.66,46
+P036,Galletas Chiky,Abarrotes,348.84,23
+P037,Tortillas Tortirica 10 u,Abarrotes,645.03,116
+P038,Leche Dos Pinos 1 L,Lacteos,787.08,49
+P039,Leche deslactosada 1 L,Lacteos,850.53,71
+P040,Natilla Dos Pinos 230 g,Lacteos,683.29,112
+P041,Queso Turrialba (kg),Lacteos,3388.49,14
+P042,Yogurt Dos Pinos 1 L,Lacteos,1256.72,36
+P043,Huevos 15 u,Lacteos,1895.23,35
+P044,Queso crema Dos Pinos 225 g,Lacteos,1091.47,83
+P045,Fanta naranja 2.5 L,Bebidas,987.23,49
+P046,Fresca 2.5 L,Bebidas,906.14,73
+P047,Agua Cristal 600 ml,Bebidas,400.58,112
+P048,Tropical 500 ml,Bebidas,471.04,49
+P049,Del Valle 1 L,Bebidas,805.89,45
+P050,Gatorade 600 ml,Bebidas,657.24,69
+P051,Te frio Lipton 500 ml,Bebidas,519.13,98
+P052,Pepsi 3 L,Bebidas,1059.91,95
+P053,Malta Pilsen 355 ml,Bebidas,382.72,61
+P054,Cerveza Imperial lata 350 ml,Cervezas y licores,590.63,98
+P055,Cerveza Pilsen lata 350 ml,Cervezas y licores,639.57,34
+P056,Cerveza Bavaria lata 350 ml,Cervezas y licores,704.13,104
+P057,Guaro Cacique 750 ml,Cervezas y licores,4515.01,27
+P058,Papas Tosty 150 g,Snacks y dulces,824.14,49
+P059,Doritos 145 g,Snacks y dulces,963.36,33
+P060,Chicharron Jack's,Snacks y dulces,405.72,10
+P061,Chocolate Tapita,Snacks y dulces,267.64,35
+P062,Chicles Trident,Snacks y dulces,196.88,50
+P063,Mani Kiss,Snacks y dulces,346.19,112
+P064,Bon Bon Bum,Snacks y dulces,63.14,76
+P065,Gomitas Trululu,Snacks y dulces,336.96,120
+P066,Helado Dos Pinos fresa 1 L,Helados,1451.85,53
+P067,Copa Dos Pinos,Helados,374.40,56
+P068,Cono Dos Pinos,Helados,449.40,38
+P069,Pan cuadrado Bimbo,Panaderia,1311.94,53
+P070,Pan baguette,Panaderia,452.50,65
+P071,Bizcocho (bolsa),Panaderia,869.00,115
+P072,Pan dulce (unidad),Panaderia,253.10,56
+P073,Platano maduro (u),Frutas y verduras,155.83,37
+P074,Papa (kg),Frutas y verduras,717.29,31
+P075,Cebolla (kg),Frutas y verduras,785.88,116
+P076,Tomate (kg),Frutas y verduras,993.08,16
+P077,Chile dulce (u),Frutas y verduras,180.60,81
+P078,Banano (kg),Frutas y verduras,528.98,24
+P079,Culantro (rollo),Frutas y verduras,191.86,53
+P080,Yuca (kg),Frutas y verduras,531.64,47
+P081,Jabon Irex 1 kg,Limpieza,1530.29,6
+P082,Cloro Ole 1 L,Limpieza,583.50,24
+P083,Lavaplatos Axion 450 g,Limpieza,854.09,10
+P084,Papel higienico Nevax 4 u,Limpieza,1130.50,67
+P085,Suavitel 850 ml,Limpieza,1166.36,120
+P086,Bolsas basura 10 u,Limpieza,588.66,30
+P087,Jabon Protex,Cuidado personal,453.09,14
+P088,Shampoo Head&Shoulders 375 ml,Cuidado personal,2405.53,26
+P089,Pasta Colgate 75 ml,Cuidado personal,817.98,77
+P090,Desodorante Rexona,Cuidado personal,1438.37,85
+P091,Toallas Kotex 10 u,Cuidado personal,1001.03,109
+P092,Arroz Luisiana 80% 1 kg (presentacion pequena),Granos,540.08,72
+P093,Arroz Sabanero 2 kg (presentacion pequena),Granos,1033.82,109
+P094,Frijoles rojos Don Pedro 900 g (presentacion pequena),Granos,711.88,29
+P095,Frijoles negros Kamuk 1 kg (presentacion pequena),Granos,735.10,120
+P096,Lentejas 400 g (presentacion pequena),Granos,410.25,88
+P097,Garbanzos 400 g (presentacion pequena),Granos,474.87,9
+P098,Maiz pira 400 g (presentacion pequena),Granos,345.84,15
+P099,Avena Quaker 400 g (presentacion pequena),Granos,595.84,72
+P100,Azucar Doña Maria 2 kg (presentacion pequena),Abarrotes,816.22,30
+P101,Aceite Clover 1 L (presentacion pequena),Abarrotes,898.83,16
+P102,Sal Sol 1 kg (presentacion pequena),Abarrotes,197.81,42
+P103,Cafe Rey 250 g (presentacion pequena),Abarrotes,1148.01,44
+P104,Cafe 1820 500 g (presentacion pequena),Abarrotes,1849.05,38
+P105,Pasta Roma spaghetti 250 g (presentacion pequena),Abarrotes,234.62,84
+P106,Atun Sardimar 140 g (presentacion pequena),Abarrotes,520.62,83
+P107,Sardinas Sardimar 155 g (presentacion pequena),Abarrotes,364.94,107
+P108,Salsa Lizano 280 ml (presentacion pequena),Abarrotes,617.96,119
+P109,Salsa de tomate Kerns 400 g (presentacion pequena),Abarrotes,565.06,77
+P110,Harina Maseca 1 kg (presentacion pequena),Abarrotes,567.01,77
+P111,Harina Gallo de Oro 1 kg (presentacion pequena),Abarrotes,415.47,52
+P112,Mantequilla Dos Pinos 115 g (presentacion pequena),Abarrotes,495.96,107
+P113,Margarina Numar 500 g (presentacion pequena),Abarrotes,690.19,51
+P114,Consome Maggi 12 u (presentacion pequena),Abarrotes,425.51,38
+P115,Mayonesa Hellmanns 400 g (presentacion pequena),Abarrotes,966.81,31
+P116,Leche en polvo Dos Pinos 400 g (presentacion pequena),Abarrotes,1665.80,78
+P117,Galletas Maria Pozuelo (presentacion pequena),Abarrotes,311.33,49
+P118,Galletas Chiky (presentacion pequena),Abarrotes,191.92,11
+P119,Tortillas Tortirica 10 u (presentacion pequena),Abarrotes,348.07,62
+P120,Leche Dos Pinos 1 L (presentacion pequena),Lacteos,459.08,53
+P121,Leche deslactosada 1 L (presentacion pequena),Lacteos,544.84,6
+P122,Natilla Dos Pinos 230 g (presentacion pequena),Lacteos,430.70,5
+P123,Queso Turrialba (kg) (presentacion pequena),Lacteos,1993.97,97
+P124,Yogurt Dos Pinos 1 L (presentacion pequena),Lacteos,772.74,21
+P125,Huevos 15 u (presentacion pequena),Lacteos,1172.46,44
+P126,Queso crema Dos Pinos 225 g (presentacion pequena),Lacteos,647.33,76
+P127,Fanta naranja 2.5 L (presentacion pequena),Bebidas,603.85,54
+P128,Fresca 2.5 L (presentacion pequena),Bebidas,584.98,96
+P129,Agua Cristal 600 ml (presentacion pequena),Bebidas,257.42,69
+P130,Tropical 500 ml (presentacion pequena),Bebidas,285.91,26
+P131,Del Valle 1 L (presentacion pequena),Bebidas,515.11,8
+P132,Gatorade 600 ml (presentacion pequena),Bebidas,382.37,78
+P133,Te frio Lipton 500 ml (presentacion pequena),Bebidas,308.80,87
+P134,Pepsi 3 L (presentacion pequena),Bebidas,661.59,5
+P135,Malta Pilsen 355 ml (presentacion pequena),Bebidas,227.04,44
+P136,Cerveza Imperial lata 350 ml (presentacion pequena),Cervezas y licores,357.41,120
+P137,Cerveza Pilsen lata 350 ml (presentacion pequena),Cervezas y licores,364.79,88
+P138,Cerveza Bavaria lata 350 ml (presentacion pequena),Cervezas y licores,394.53,39
+P139,Guaro Cacique 750 ml (presentacion pequena),Cervezas y licores,2623.43,87
+P140,Papas Tosty 150 g (presentacion pequena),Snacks y dulces,531.37,16
+P141,Doritos 145 g (presentacion pequena),Snacks y dulces,516.28,100
+P142,Chicharron Jack's (presentacion pequena),Snacks y dulces,263.74,97
+P143,Chocolate Tapita (presentacion pequena),Snacks y dulces,160.47,20
+P144,Chicles Trident (presentacion pequena),Snacks y dulces,126.07,52
+P145,Mani Kiss (presentacion pequena),Snacks y dulces,221.78,76
+P146,Bon Bon Bum (presentacion pequena),Snacks y dulces,56.39,76
+P147,Gomitas Trululu (presentacion pequena),Snacks y dulces,179.96,6
+P148,Helado Dos Pinos fresa 1 L (presentacion pequena),Helados,907.86,75
+P149,Copa Dos Pinos (presentacion pequena),Helados,244.93,111
+P150,Cono Dos Pinos (presentacion pequena),Helados,277.73,104
+P151,Pan cuadrado Bimbo (presentacion pequena),Panaderia,764.56,40
+P152,Pan baguette (presentacion pequena),Panaderia,305.16,80
+P153,Bizcocho (bolsa) (presentacion pequena),Panaderia,490.75,36
+P154,Pan dulce (unidad) (presentacion pequena),Panaderia,144.03,75
+P155,Platano maduro (u) (presentacion pequena),Frutas y verduras,95.96,50
+P156,Papa (kg) (presentacion pequena),Frutas y verduras,436.22,75
+P157,Cebolla (kg) (presentacion pequena),Frutas y verduras,529.50,86
+P158,Tomate (kg) (presentacion pequena),Frutas y verduras,579.84,97
+P159,Chile dulce (u) (presentacion pequena),Frutas y verduras,123.83,101
+P160,Banano (kg) (presentacion pequena),Frutas y verduras,302.56,80
+P161,Culantro (rollo) (presentacion pequena),Frutas y verduras,106.30,97
+P162,Yuca (kg) (presentacion pequena),Frutas y verduras,318.15,24
+P163,Jabon Irex 1 kg (presentacion pequena),Limpieza,942.71,95
+P164,Cloro Ole 1 L (presentacion pequena),Limpieza,359.07,68
+P165,Lavaplatos Axion 450 g (presentacion pequena),Limpieza,510.17,94
+P166,Papel higienico Nevax 4 u (presentacion pequena),Limpieza,677.74,69
+P167,Suavitel 850 ml (presentacion pequena),Limpieza,660.21,25
+P168,Bolsas basura 10 u (presentacion pequena),Limpieza,377.90,16
+P169,Jabon Protex (presentacion pequena),Cuidado personal,282.05,47
+P170,Shampoo Head&Shoulders 375 ml (presentacion pequena),Cuidado personal,1553.46,8
+P171,Pasta Colgate 75 ml (presentacion pequena),Cuidado personal,479.35,69
+P172,Desodorante Rexona (presentacion pequena),Cuidado personal,896.85,66
+P173,Toallas Kotex 10 u (presentacion pequena),Cuidado personal,561.54,10
+P174,Arroz Luisiana 80% 1 kg (presentacion grande),Granos,1527.78,104
+P175,Arroz Sabanero 2 kg (presentacion grande),Granos,3030.80,57
+P176,Frijoles rojos Don Pedro 900 g (presentacion grande),Granos,2051.23,92
+P177,Frijoles negros Kamuk 1 kg (presentacion grande),Granos,2209.07,73
+P178,Lentejas 400 g (presentacion grande),Granos,1115.74,32
+P179,Garbanzos 400 g (presentacion grande),Granos,1247.69,89
+P180,Maiz pira 400 g (presentacion grande),Granos,942.70,100
+P181,Avena Quaker 400 g (presentacion grande),Granos,1805.53,7
+P182,Azucar Doña Maria 2 kg (presentacion grande),Abarrotes,2483.01,70
+P183,Aceite Clover 1 L (presentacion grande),Abarrotes,2670.58,65
+P184,Sal Sol 1 kg (presentacion grande),Abarrotes,581.92,57
+P185,Cafe Rey 250 g (presentacion grande),Abarrotes,3000.50,99
+P186,Cafe 1820 500 g (presentacion grande),Abarrotes,4950.42,63
+P187,Pasta Roma spaghetti 250 g (presentacion grande),Abarrotes,642.27,48
+P188,Atun Sardimar 140 g (presentacion grande),Abarrotes,1409.08,6
+P189,Sardinas Sardimar 155 g (presentacion grande),Abarrotes,1087.88,33
+P190,Salsa Lizano 280 ml (presentacion grande),Abarrotes,1713.62,86
+P191,Salsa de tomate Kerns 400 g (presentacion grande),Abarrotes,1647.15,72
+P192,Harina Maseca 1 kg (presentacion grande),Abarrotes,1697.86,68
+P193,Harina Gallo de Oro 1 kg (presentacion grande),Abarrotes,1254.51,86
+P194,Mantequilla Dos Pinos 115 g (presentacion grande),Abarrotes,1339.80,41
+P195,Margarina Numar 500 g (presentacion grande),Abarrotes,1879.28,25
+P196,Consome Maggi 12 u (presentacion grande),Abarrotes,1159.29,65
+P197,Mayonesa Hellmanns 400 g (presentacion grande),Abarrotes,2936.93,97
+P198,Leche en polvo Dos Pinos 400 g (presentacion grande),Abarrotes,4281.10,75
+P199,Galletas Maria Pozuelo (presentacion grande),Abarrotes,837.57,51
+P200,Galletas Chiky (presentacion grande),Abarrotes,555.54,71

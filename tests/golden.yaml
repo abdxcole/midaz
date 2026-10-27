@@ -1,0 +1,86 @@
+# MIDAZ golden set v0 (SAMPLE DATA, seed 20260701).
+# Every expected_answer is traceable to a file in this repo. No external numbers.
+# Units: CRC (colones), VAT 13% excluded, gross profit = qty x (price/1.13 - unit_cost).
+# Tolerance: absolute unless stated. "provisional: true" = figure pending review with Josue.
+version: 0
+data_status: sample
+items:
+  - id: G01
+    question: "What share of gross profit comes from the top 20% of products?"
+    expected_answer: "67.8% (top 39 of 197 products with cost and sales)"
+    expected_sql_or_source: "sql/11_hu02_8020_resumen.sql; data/output/control_8020.md"
+    tolerance: "0.1 percentage points"
+  - id: G02
+    question: "How many products have both a cost and sales in the 90 days?"
+    expected_answer: "197"
+    expected_sql_or_source: "sql/11_hu02_8020_resumen.sql; data/output/control_8020.md"
+    tolerance: "exact"
+  - id: G03
+    question: "What is total gross profit for the 90-day period (products with cost only)?"
+    expected_answer: "CRC 12,089,826"
+    expected_sql_or_source: "sql/11_hu02_8020_resumen.sql; data/output/control_8020.md"
+    tolerance: "CRC 1"
+  - id: G04
+    question: "How many products are needed to reach 80% of gross profit?"
+    expected_answer: "64 products (32.5% of the catalog with cost)"
+    expected_sql_or_source: "sql/11_hu02_8020_resumen.sql; data/output/control_8020.md"
+    tolerance: "exact"
+  - id: G05
+    question: "Which product earns the most gross profit?"
+    expected_answer: "Helado Dos Pinos vainilla 1 L (P004), CRC 912,254"
+    expected_sql_or_source: "sql/10_hu02_8020_ranking.sql; data/output/control_8020.csv (rank_ganancia 1)"
+    tolerance: "CRC 1"
+  - id: G06
+    question: "What are the top 5 products by gross profit?"
+    expected_answer: "Helado Dos Pinos vainilla 1 L; Coca-Cola 2.5 L; Helado Dos Pinos fresa 1 L; Queso Turrialba (kg); Paleta Dos Pinos Choco"
+    expected_sql_or_source: "sql/10_hu02_8020_ranking.sql; data/output/control_8020.md"
+    tolerance: "exact order"
+  - id: G07
+    question: "Which product sells the most units, and does it also make the most money?"
+    expected_answer: "Arroz Tio Pelon 99% 2 kg: #1 in units (13,816) but #8 in gross profit (CRC 287,318)"
+    expected_sql_or_source: "sql/20_vende_mucho_deja_poco.sql; data/output/control_8020.md"
+    tolerance: "exact ranks; CRC 1"
+  - id: G08
+    question: "What is the gross margin on rice (P001) versus vanilla ice cream (P004)?"
+    expected_answer: "Rice about 1.0%; vanilla ice cream about 42.0% (gross profit / sales ex-VAT)"
+    expected_sql_or_source: "sql/20_vende_mucho_deja_poco.sql (margen_pct); data/output/control_8020.csv (ganancia_bruta_sin_iva / ventas_sin_iva)"
+    tolerance: "0.1 percentage points"
+  - id: G09
+    question: "Did raising the Coca-Cola 2.5 L price on 2026-08-15 help?"
+    expected_answer: "Price CRC 1,650 -> 1,850 (with VAT). Units/day fell 15.4 -> 13.1, but gross profit/day rose CRC 8,072 -> 9,239"
+    expected_sql_or_source: "sql/32_precio_coca_cola.sql; data/output/control_8020.md (section 'Cambio de precio Coca-Cola 2.5 L')"
+    tolerance: "0.1 units/day; CRC 1/day"
+  - id: G10
+    question: "Was gross profit enough to cover operating expenses in September 2026? By how much did it fall short?"
+    expected_answer: "No. Expenses CRC 4,145,000 minus gross profit CRC 3,910,259 = shortfall CRC 234,741 (PROVISIONAL)"
+    expected_sql_or_source: "sql/30_me_alcanza.sql; data/output/control_8020.md (Faltante mensual)"
+    tolerance: "CRC 1"
+    provisional: true
+  - id: G11
+    question: "What was the shortfall in July and August 2026?"
+    expected_answer: "July CRC 244,887; August CRC 245,546"
+    expected_sql_or_source: "sql/30_me_alcanza.sql; data/output/control_8020.md (Faltante mensual)"
+    tolerance: "CRC 1"
+    provisional: true
+  - id: G12
+    question: "What is the largest operating expense in September 2026?"
+    expected_answer: "Payroll for 4 employees, CRC 1,880,000 of CRC 4,145,000"
+    expected_sql_or_source: "data/output/gastos_operativos.csv (month = 2026-09)"
+    tolerance: "exact"
+  - id: G13
+    question: "Which category produces the most gross profit?"
+    expected_answer: "Helados, CRC 2,231,282"
+    expected_sql_or_source: "sql/33_margen_por_categoria.sql (view: sql/00_margen_por_producto.sql)"
+    tolerance: "CRC 1"
+  - id: G14
+    question: "How much profit does the ground beef (Carne molida especial) make?"
+    expected_answer: "I don't know: P007 has no row in costos_inventario. Only sales are known: 1,092 units, CRC 5,025,133 ex-VAT. Same for P008 and P009 (3 products without cost)."
+    expected_sql_or_source: "sql/01_calidad_datos.sql; sql/02_sin_costo_detalle.sql; data/output/control_8020.md (Carnes sin costo)"
+    tolerance: "must refuse to give a profit figure; sales figures CRC 1"
+    expects_no_evidence: true
+  - id: G15
+    question: "What will the shortfall be in October 2026?"
+    expected_answer: "I don't know: the data only covers 2026-07-01 to 2026-09-30; there are no October sales or expenses. Must not extrapolate."
+    expected_sql_or_source: "data/output/ventas_pos.csv (MAX(date) = 2026-09-30); data/output/gastos_operativos.csv (last month 2026-09)"
+    tolerance: "must refuse to give a number"
+    expects_no_evidence: true
