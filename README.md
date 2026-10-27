@@ -4,18 +4,18 @@ MIDAZ is a text money assistant (voice planned) for a small Costa Rican shop (pu
 
 Built for the **Open Agent Hackathon 2026**, track **02 · The Agent That Can Explain Why** (code freeze Mon Oct 26, 12:00 PM CR). **All data is SAMPLE DATA**; nothing here describes a real business.
 
-## Probar MIDAZ sin Zetaris
+## Try MIDAZ without Zetaris
 
-Los jueces pueden correr MIDAZ en modo muestra, sin Zetaris, sin Docker y sin llaves. Zetaris está en la máquina del equipo; el video del pitch es la prueba en vivo contra esas fuentes.
+Judges can run MIDAZ in sample mode, with no Zetaris, no Docker and no keys. Zetaris stays on the team's machine; the pitch video is the live proof against those sources.
 
-Hace falta Python 3.10+. Los datos son de ejemplo.
+Python 3.10+ is enough. The data is sample data.
 
 ```bash
-python run.py       # demo en la consola: respuestas y recibos
-python run.py ui    # pantalla local en http://127.0.0.1:8765
+python run.py       # console demo: answers and receipts
+python run.py ui    # local screen at http://127.0.0.1:8765
 ```
 
-La pantalla pregunta en español, deja la respuesta en grande y, debajo, la prueba: el SQL, las filas usadas, las fuentes (POS, inventario, finanzas) y el sello del verificador (confirmado, o No sé si lo rechaza).
+The screen is in English. On open it answers "Which products make me money?". The answer sits large in a card, with the key figure in gold and the verifier seal beside it (**Verified**, or **Not verified** when the check does not confirm). **Show proof** opens the receipt: sources, SQL and rows. H-MEM memory sits in a quiet side panel. A **Sample data** tag shows when the engine is not Zetaris.
 
 ## How to run the demo
 
@@ -23,7 +23,7 @@ Requirements: Python 3.10+. The offline commands (`python run.py`, `test`, `chec
 
 ```bash
 python run.py          # full demo: answers + receipts (SAMPLE DATA, local SQLite stand-in)
-python run.py ui       # local screen on http://127.0.0.1:8765 (see "Probar MIDAZ sin Zetaris" above)
+python run.py ui       # local screen on http://127.0.0.1:8765 (see "Try MIDAZ without Zetaris" above)
 python run.py followup # only the H-MEM follow-up (HU-14); add a question in quotes to ask another
 python run.py test     # 79 unit tests (same as: python -m unittest discover -s tests); does not read .env
 python run.py check    # compare SQL results against the control sheet (data/output/control_8020.*)
