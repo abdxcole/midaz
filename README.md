@@ -15,7 +15,7 @@ python run.py       # console demo: answers and receipts
 python run.py ui    # local screen at http://127.0.0.1:8765
 ```
 
-The screen is in English. On open it answers "Which products make me money?". The answer sits large in a card, with the key figure in gold and the verifier seal beside it (**Verified**, or **Not verified** when the check does not confirm). **Show proof** opens the receipt: sources, SQL, rows and H-MEM memory. A **Sample data** tag shows when the engine is not Zetaris.
+The screen is in English. On open it answers "Which products make me money?". The answer sits large in a card, with the key figure in gold and the verifier seal beside it (**Verified**, or **Not verified** when the check does not confirm). **Show proof** opens the receipt: sources, SQL and rows. H-MEM memory sits in a quiet side panel. A **Sample data** tag shows when the engine is not Zetaris.
 
 ## How to run the demo
 
