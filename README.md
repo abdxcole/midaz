@@ -4,6 +4,10 @@ MIDAZ is a text money assistant (voice planned) for a small Costa Rican shop (pu
 
 Built for the **Open Agent Hackathon 2026**, track **02 · The Agent That Can Explain Why** (code freeze Mon Oct 26, 12:00 PM CR). **All data is SAMPLE DATA**; nothing here describes a real business.
 
+**Live demo: https://midaz-ai.vercel.app**
+
+The live demo runs on bundled sample data (no keys). The real Zetaris run, with 3 sources and the verifier passing 12/12, is shown in the demo video.
+
 ## Try MIDAZ without Zetaris
 
 Judges can run MIDAZ in sample mode, with no Zetaris, no Docker and no keys. Zetaris stays on the team's machine; the pitch video is the live proof against those sources.
@@ -70,6 +74,10 @@ This needs `ZETARIS_REST_URL`, `ZETARIS_ORG_ID` and `ZETARIS_API_KEY` set **by t
 | Local screen (`python run.py ui`) | Built for the pitch: question, answer, SQL, rows, sources and the verifier seal. Sample data, no Zetaris required |
 
 Known gaps per data source: `docs/11-known-failures-DRAFT.md`.
+
+## Next steps
+
+- Tested with a real store: next step.
 
 ## Repo map
 
